@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="11sp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="120sp"
+            android:background="#c95d5d" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp">
+
+        <ImageView
+            android:layout_width="114dp"
+            android:layout_height="115dp"
+            android:background="#c95d5d" />
+
+        <ImageView
+            android:layout_width="129dp"
+            android:layout_height="113dp"
+            android:layout_gravity="center"
+            android:background="#c95d5d" />
+
+        <ImageView
+            android:layout_width="114dp"
+            android:layout_height="116dp"
+            android:layout_gravity="end"
+            android:background="#c95d5d" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="120sp"
+            android:background="#8a2121" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zahrotun Niswah"
+            android:layout_gravity="center"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp">
+
+        <ImageView
+            android:layout_width="118dp"
+            android:layout_height="120sp"
+            android:background="#c95d5d" />
+
+        <ImageView
+            android:layout_width="124dp"
+            android:layout_height="120sp"
+            android:layout_gravity="center"
+            android:background="#c95d5d" />
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="120sp"
+            android:layout_gravity="end"
+            android:background="#c95d5d" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="120sp"
+            android:background="#c95d5d" />
+    </FrameLayout>
+
+</LinearLayout>
